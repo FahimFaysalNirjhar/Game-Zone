@@ -1,11 +1,31 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* common shared styles */
+.pink-btn {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  border: none;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
 /* header related styles */
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #fff;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
 }
 /* logo related styles */
 #logo {
@@ -64,6 +84,74 @@ nav ul li a {
   padding: 20px;
   margin-left: 30px;
 }
+/* hero section related styles */
+.hero {
+  background-image: url(../images/Group\ 14.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero img {
+  width: 40%;
+  object-fit: contain;
+}
+.hero-subtitle {
+  color: #0b0223;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.hero-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.hero-para {
+  color: #534c64;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.fa-circle-play,
+.fa-semibold {
+  color: #ff42a5;
+}
+#blue-btn {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  border: none;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 576px) {
   header {
     flex-direction: column;
@@ -74,6 +162,16 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  #mobile-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    background: #fff;
+    box-shadow: none;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1024px) {
