@@ -272,6 +272,53 @@ nav ul li a {
   font-weight: 700;
   line-height: normal;
 }
+/* play related styles */
+.play {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#img-1 {
+  width: 60%;
+  object-fit: cover;
+}
+.play-title {
+  text-align: right;
+  font-family: "Work Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  width: 341px;
+  height: 180px;
+}
+.play-title span {
+  background: linear-gradient(0deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-para {
+  color: #534c64;
+  text-align: right;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 353px;
+  height: 90px;
+}
+#img-position {
+  position: relative;
+  left: 100px;
+  top: 68px;
+  width: 31%;
+  object-fit: cover;
+}
 @media screen and (max-width: 576px) {
   header {
     flex-direction: column;
@@ -342,6 +389,36 @@ nav ul li a {
   .online-games-card {
     max-width: 342px;
     margin: 0 auto;
+  }
+  .online-games {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .play {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  #img-1 {
+    width: 75%;
+    object-fit: cover;
+  }
+  #img-position {
+    position: relative;
+    left: -125px;
+    top: 308px;
+    width: 30%;
+    object-fit: cover;
+  }
+  .play-img-container {
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .play-title {
+    text-align: left;
+  }
+  .play-para {
+    text-align: center;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1024px) {
