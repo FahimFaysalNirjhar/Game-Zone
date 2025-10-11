@@ -173,6 +173,29 @@ nav ul li a {
     background: #fff;
     box-shadow: none;
   }
+  .hero-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .hero img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .hero {
+    background-image: none;
+    background-position: bottom;
+    background-size: 100%;
+  }
+  .hero-description {
+    background-image: url(../images/Group\ 14.png);
+    background-size: 100%;
+  }
+  #blue-btn,
+  .pink-btn {
+    padding: 25px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 1024px) {
   header {
