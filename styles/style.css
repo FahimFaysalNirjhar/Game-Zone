@@ -1,0 +1,85 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* header related styles */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* logo related styles */
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#logo img {
+  width: 86.026px;
+  height: 40.015px;
+}
+#logo-title {
+  color: #0b0223;
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#word {
+  color: #ff42a5;
+}
+/* nav related styles */
+#bg-ul li a img {
+  width: 33.916px;
+  height: 24px;
+  object-fit: contain;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#bg-ul {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
