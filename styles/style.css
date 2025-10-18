@@ -362,6 +362,69 @@ nav ul li a {
   line-height: 30px; /* 166.667% */
   width: 483px;
 }
+/* career related styles */
+.career {
+  background-image: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+
+.career-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.career-para-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.career-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 0;
+  font-family: "Work Sans";
+}
+
+.career-para {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Work Sans";
+}
+
+.career-container img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.career-flex {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 40px;
+  font-family: "Work Sans";
+}
+
+.career-btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ff42a5;
+  border-radius: 48px;
+  background: #fff;
+  border: 0;
+  padding: 21px 40px;
+  font-family: "Work Sans";
+}
+
 @media screen and (max-width: 576px) {
   header {
     flex-direction: column;
@@ -485,6 +548,16 @@ nav ul li a {
     line-height: 30px; /* 166.667% */
     width: 100%;
   }
+  .career-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .career-container img {
+    width: 100%;
+    object-fit: cover;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 745px) {
   .anytime {
@@ -506,5 +579,15 @@ nav ul li a {
   }
   .gamer img {
     width: 100%;
+  }
+  .career-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .career-container img {
+    width: 100%;
+    object-fit: cover;
   }
 }
