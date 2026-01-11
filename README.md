@@ -50,8 +50,10 @@ The project demonstrates extensive use of CSS **positioning** for layout and int
 ## 📝 Author
 
 **Fahim Faysal**  
-[GitHub Profile](https://github.com/yourusername)  
-[LinkedIn](https://www.linkedin.com/in/yourprofile)
+Front-End Developer
+
+- GitHub: [https://github.com/FahimFaysalNirjhar](https://github.com/FahimFaysalNirjhar)
+- Email: fahimfaysal1995@gmail.com
 
 ---
 
